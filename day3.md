@@ -12,12 +12,11 @@ An AI agent is a software system built around a core AI engine that can **percei
 
 ### The 4 Pillars of Agentic Capability
 
-*   **Goal Decomposition & Planning:** The ability to take a massive task (e.g., *"Book a week-long business trip to Tokyo under $2,000"*) and break it down into an ordered, logical workflow.
-*   **Memory Integration:** 
-    *   *Short-Term:* Retaining immediate context within an active session.
-    *   *Long-Term:* Pulling historical data, persistent user preferences, and enterprise knowledge databases.
-*   **Tool Utilization:** Giving the model "hands." Agents can write and run code, connect to third-party APIs, query databases, and read/write files.
-*   **Self-Reflection & Correction:** The ability to evaluate its own outputs, detect errors or API timeouts, and dynamically alter its strategy mid-execution without crashing.
+* **Goal Decomposition & Planning:** The ability to take a massive task (e.g., *"Book a week-long business trip to Tokyo under $2,000"*) and break it down into an ordered, logical workflow.
+* **Memory Integration:** * *Short-Term:* Retaining immediate context within an active session.
+    * *Long-Term:* Pulling historical data, persistent user preferences, and enterprise knowledge databases.
+* **Tool Utilization:** Giving the model "hands." Agents can write and run code, connect to third-party APIs, query databases, and read/write files.
+* **Self-Reflection & Correction:** The ability to evaluate its own outputs, detect errors or API timeouts, and dynamically alter its strategy mid-execution without crashing.
 
 ---
 
@@ -27,16 +26,14 @@ When moving from a basic script to an enterprise-grade ecosystem, agents scale a
 
 ### The Core Architectural Loop
 
-<img width="843" height="206" alt="image" src="https://github.com/user-attachments/assets/518996aa-295e-404b-9022-8489d1a7cb86" />
+<img width="843" height="206" alt="image" src="[https://github.com/user-attachments/assets/518996aa-295e-404b-9022-8489d1a7cb86](https://github.com/user-attachments/assets/518996aa-295e-404b-9022-8489d1a7cb86)" />
 
-<img width="420" height="238" alt="image" src="https://github.com/user-attachments/assets/c14ebcde-22d5-428f-8bd2-c082cbb0a880" />
-
+<img width="420" height="238" alt="image" src="[https://github.com/user-attachments/assets/c14ebcde-22d5-428f-8bd2-c082cbb0a880](https://github.com/user-attachments/assets/c14ebcde-22d5-428f-8bd2-c082cbb0a880)" />
 
 ### Multi-Agent Collaborative Frameworks
 In production environments, a single monolithic agent is rarely efficient. Instead, complex business logic is broken apart into **Multi-Agent Systems** where highly specialized agents collaborate, hand off state, and peer-review outputs:
 
-<img width="820" height="374" alt="image" src="https://github.com/user-attachments/assets/6f128a2d-5b4a-437c-91aa-1d51efb635bd" />
-
+<img width="820" height="374" alt="image" src="[https://github.com/user-attachments/assets/6f128a2d-5b4a-437c-91aa-1d51efb635bd](https://github.com/user-attachments/assets/6f128a2d-5b4a-437c-91aa-1d51efb635bd)" />
 
 ---
 
@@ -51,10 +48,7 @@ How we define and build agents depends entirely on our business objectives and t
 | **Technical Focus** | **User capabilities** (Planning, Tool Use, Memory). | **The Loop** (Perceive &rarr; Reason &rarr; Act) & ROI. | **Production challenges** (Latency, State Hydration, IAM Security). |
 | **System Complexity** | Simple script automation (e.g., Read &rarr; Draft &rarr; Send). | **Cross-Enterprise ecosystems** (DevOps automated loops). | Specific **Runtime Stacks** (Vertex AI, RAG Pipelines, Playbooks). |
 | **Value Proposition** | Saves you from clicking through 5 different apps manually. | Shifts the corporate tech stack from "app-first" to "agent-first". | Builds a highly resilient, securely bounded digital workforce. |
-| **System Diagram** | *Conceptual Breakdown* | ![Enterprise Agent Loop](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/images/agent-architecture.png?raw=true) | ```<Orchestration> / <Grounding> / <Secure Execution>
-``` |
-
-> ⚠️ **Repository Note:** To render your architecture image inside the comparison table above, upload your image file to your repository and replace `YOUR_USERNAME`, `YOUR_REPO`, and the image path with your live GitHub URL assets.
+| **System Diagram** | *Conceptual Breakdown* | ![Enterprise Agent Loop](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/images/agent-architecture.png?raw=true) | `<Orchestration> / <Grounding> / <Secure Execution>` |
 
 ---
 
@@ -74,9 +68,9 @@ An agent should never be given blanket access to act freely. Security protocols 
 2. Natural language playbooks are bound by **deterministic code constraints**.
 3. All destructive actions (e.g., writing to a production database, making financial transactions) pass through a **Human-in-the-Loop (HITL)** approval gate.
 
+---
 
-
-# AI Agent Persona Breakdown
+## 5. AI Agent Persona Breakdown Matrix
 
 A comparative analysis of how the explanation of AI agents shifts depending on the audience, moving from high-level concepts to executive strategy, and down to production engineering.
 
@@ -88,6 +82,4 @@ A comparative analysis of how the explanation of AI agents shifts depending on t
 | **System Complexity** | Introduces simple **Multi-Agent collaboration** (Researcher, Writer, Editor). | Focuses on **Enterprise Multi-Agent ecosystems** (DevOps automated loops). | Details the specific **Architectural Stack** (Vertex AI, BigQuery, Playbooks/Guardrails). |
 | **Tone & Perspective** | Approachable, conceptual, human-centric. | Visionary, strategic, historical, market-focused. | Practical, technical, problem-solving, operational. |
 | **Value Proposition** | Saves you from opening 5 different apps; automates tedious tasks. | Shifts the world from "app-first" to "agent-first" enterprise operations. | Enables a secure, reliable, infinitely scalable digital workforce. |
-| **Visual Architecture** | *Conceptual text-only breakdown* | ![Enterprise Agent Loop](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/images/agent-architecture.png?raw=true) | ```<Orchestration Layer> / <Data & Memory> / <Reasoning Core>
-``` |
-
+| **Visual Architecture** | *Conceptual text-only breakdown* | ![Enterprise Agent Loop](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/images/agent-architecture.png?raw=true) | `<Orchestration Layer> / <Data & Memory> / <Reasoning Core>` |
